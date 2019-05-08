@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AGEA,AACI,GADD,AAAA,OAAO,CACN,cAAc,CAAC;EACX,gBAAgB,EAJhB,OAAO;CAKV",
+    "sources": [
+        "style.scss",
+        "scss/_variables.scss",
+        "scss/_mixins.scss",
+        "scss/_header.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
