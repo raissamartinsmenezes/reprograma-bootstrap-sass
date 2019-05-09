@@ -1,0 +1,17 @@
+.section-clients {
+    background-color: $color-bg;
+    padding: 10px 0;
+    text-align: center;
+
+    .header-text {
+        margin: 40px 0;
+        @include title(uppercase, $color-primary);
+    }
+
+    .list-unstyled {
+        margin: 40px 0;
+        @include flex(center, space-around);
+        @include title(uppercase, $color-primary);
+    }
+
+}

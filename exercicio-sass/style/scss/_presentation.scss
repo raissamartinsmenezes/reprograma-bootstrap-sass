@@ -1,0 +1,30 @@
+.section-presentation {
+    overflow: hidden;
+    margin: 40px 0;
+
+    .presentation-text {
+        @include flex(center, space-around);
+
+    }
+
+    .description {
+        width: 60%;
+
+        h4 {
+            margin-top: 0;
+            @include title(uppercase, $color-primary);
+        }
+    }
+
+    .presentation-img {
+        width: 40%;
+        
+        img {
+            height: 500px;
+        }
+
+    }
+
+
+}
+

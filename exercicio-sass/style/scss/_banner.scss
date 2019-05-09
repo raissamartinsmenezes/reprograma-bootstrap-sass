@@ -1,0 +1,51 @@
+.banner {
+    background-image: url(../images/bg3.jpg);
+    background-size: cover;
+    // background-position: center;
+    height: 85vh;
+    overflow: hidden;
+    
+
+    .banner-content  {
+        @include flex(flex-end, center);
+        height: 85vh;    
+    }
+
+    .parallax-image {
+        width: 100%;
+        text-align: center;
+        
+        img {
+            height: 540px;
+            margin-bottom: -140px;
+        }
+
+    }
+
+    .banner-text {
+        width: 50%;
+        padding: 0 0 120px 120px;
+
+        h2 {
+            @include title(unset, $color-secondary);
+        }
+
+        h5 {
+            color: $color-secondary;
+            font-size: $font-size-text;
+        }
+
+    }
+
+    .btn-fill {
+        @include button(10px, 20px, $color-icon, $color-secondary)
+    }
+
+    .btn-simple {
+        background-color: transparent;
+        color: $color-icon;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    
+}

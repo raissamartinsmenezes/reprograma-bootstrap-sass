@@ -1,0 +1,29 @@
+.section-features {
+    text-align: center;
+    padding: 40px 0;
+
+    .container > h4 {
+        margin-top: 0;
+        @include title(uppercase, $color-primary);
+    }
+
+    .card h4 {
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .card-section {
+        width: 30%;
+    }
+
+    .features-cards {
+        @include flex(flex-start, space-between);
+
+    }
+
+    .icon {
+        font-size: 45px;
+        color: $color-icon;
+    }
+
+}
